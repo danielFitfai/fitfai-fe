@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.3568d250.css",
-    "main.js": "/static/js/main.ad399557.js",
+    "main.js": "/static/js/main.20fa74fc.js",
     "static/js/787.94b69906.chunk.js": "/static/js/787.94b69906.chunk.js",
     "static/media/ai-bg1.png": "/static/media/ai-bg1.2a9ec6ff4c6b911c2376.png",
     "static/media/who-we-are.png": "/static/media/who-we-are.f51ee330cf4875d4ae7a.png",
     "static/media/our-mission.png": "/static/media/our-mission.05f808fe84d6baa65af7.png",
     "static/media/modern-run.png": "/static/media/modern-run.eed62f2c8bce596e6e22.png",
     "static/media/pt.jpg": "/static/media/pt.62d7c64712943a05392e.jpg",
+    "static/media/App_Store_Badge.png": "/static/media/App_Store_Badge.51029e6ffe1bc31e1545.png",
+    "static/media/Google_Play_Badge.png": "/static/media/Google_Play_Badge.e32aff6116cf9da6d719.png",
     "static/media/fitfai-icon.png": "/static/media/fitfai-icon.0a2c5d7ff1847450a688.png",
     "index.html": "/index.html",
     "main.3568d250.css.map": "/static/css/main.3568d250.css.map",
-    "main.ad399557.js.map": "/static/js/main.ad399557.js.map",
+    "main.20fa74fc.js.map": "/static/js/main.20fa74fc.js.map",
     "787.94b69906.chunk.js.map": "/static/js/787.94b69906.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3568d250.css",
-    "static/js/main.ad399557.js"
+    "static/js/main.20fa74fc.js"
   ]
 }
