@@ -21,6 +21,10 @@ import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import HelpIcon from '@mui/icons-material/Help';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import ThreePIcon from '@mui/icons-material/ThreeP';
+import DownloadFrom from '../../../c-components/Download/DownloadFrom';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 
 function HomePage() {
   // let navigate = useNavigate();
@@ -81,7 +85,7 @@ function HomePage() {
             }}
             variant="h4"
           >
-            Where AI Meets Your Fitness and Nutrition Goals
+            Where AI Meets Your Fitness, Nutrition, and Mental Health Goals
           </Typography>
           <Typography
             sx={{
@@ -94,33 +98,21 @@ function HomePage() {
             }}
             variant="h6"
           >
-            We blend advanced artificial intelligence with expert fitness and
-            nutrition insights to offer you a uniquely personalized health
-            journey.
+            We blend advanced artificial intelligence with personalised fitness,
+            nutrition, and mental health insights to offer you a more accessible
+            and tailored health journey.
           </Typography>
-          {/* <Box>
-            <Button
-              variant="contained"
-              color="primary"
-              sx={{
-                mt: 4,
-                fontWeight: 'bold',
-                maxWidth: {
-                  sm: '100%',
-                  md: '50%'
-                }
-              }}
-              onClick={() =>
-                handleNavigation(
-                  'https://train.westrive.com/train/westrive.33742417907b4604'
-                )
-              }
-            >
-              Discover Your Path
-            </Button>
-          </Box> */}
         </Box>
       </Container>
+      <Container
+        sx={{
+          minWidth: '100%',
+          my: 8
+        }}
+      >
+        <DownloadFrom />
+      </Container>
+
       {/* What we offer */}
       <Container
         sx={{
@@ -145,7 +137,7 @@ function HomePage() {
               alignItems: 'center'
             }}
           >
-            <ImportantDevicesIcon fontSize="large" sx={{ mr: 2 }} /> AI-Crafted
+            <RocketLaunchIcon fontSize="large" sx={{ mr: 2 }} /> AI-Crafted
             Training Routines
           </Typography>
           <Typography variant="body1">
@@ -153,25 +145,6 @@ function HomePage() {
             principles, tailored to your fitness level, goals, and personal
             preferences.
           </Typography>
-          {/* <Box>
-            <Button
-              variant="outlined"
-              sx={{
-                mt: 1,
-                maxWidth: {
-                  sm: '100%',
-                  md: '50%'
-                }
-              }}
-              onClick={() =>
-                handleNavigation(
-                  'https://train.westrive.com/train/westrive.33742417907b4604'
-                )
-              }
-            >
-              Get your plan <RocketLaunchIcon sx={{ ml: 1 }} />
-            </Button>
-          </Box> */}
         </Box>
         <Box
           sx={{
@@ -205,8 +178,30 @@ function HomePage() {
               alignItems: 'center'
             }}
           >
+            <SelfImprovementIcon fontSize="large" sx={{ mr: 2 }} /> Supporting
+            Mental Well-being through Mindfulness
+          </Typography>
+          <Typography variant="body1">
+            Foster a balanced mind with our mindfulness and meditation features,
+            designed to support your mental health. The app offers a calm,
+            focused approach, helping you reduce stress and enhance your overall
+            well-being.
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            my: 4
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              display: 'flex',
+              alignItems: 'center'
+            }}
+          >
             <EventAvailableIcon fontSize="large" sx={{ mr: 2 }} />
-            Monthly AI Updates for Optimal Adaptation
+            AI Updates for Optimal Adaptation
           </Typography>
           <Typography variant="body1">
             Our AI system updates your fitness and diet plans monthly. This
@@ -228,13 +223,34 @@ function HomePage() {
             }}
           >
             <SmartphoneIcon fontSize="large" sx={{ mr: 2 }} />
-            Comprehensive App for Tracking and Guidance
+            Intuitive App for Exercise Guidance
           </Typography>
           <Typography variant="body1">
-            User-friendly app (powered by WeStrive) makes it easy to track your
-            progress and learn exercises. It features a range of instructional
-            videos for your workout routines, ensuring you're always on track
-            and exercising effectively.
+            A user-friendly app designed to help you learn exercises and stay on
+            track with your fitness goals. It's simple, easy to use, and focused
+            on providing clear, direct guidance.
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            my: 4
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              display: 'flex',
+              alignItems: 'center'
+            }}
+          >
+            <TrendingUpIcon fontSize="large" sx={{ mr: 2 }} />
+            Track Your Progress with Insights and Analytics (Coming Soon!)
+          </Typography>
+          <Typography variant="body1">
+            Stay motivated with detailed tracking and analytics, designed to
+            give you a deeper understanding of your fitness journey. Monitor
+            your improvements, set new goals, and make informed decisions to
+            enhance your training experience."
           </Typography>
         </Box>
         <Box
@@ -250,11 +266,11 @@ function HomePage() {
             }}
           >
             <HelpIcon fontSize="large" sx={{ mr: 2 }} />
-            Got Questions or Need Guidance? Chat with Our Experts!
+            Questions? Chat with Our Experts! (Coming Soon!)
           </Typography>
           <Typography variant="body1">
             Our dedicated chat service lets you directly connect with our
-            fitness and nutrition experts for personalized advice and support.
+            fitness and nutrition experts for personalised advice and support.
             Accessible via our app or website, ensuring you have the guidance
             you need for your AI-driven wellness path.
           </Typography>
@@ -275,8 +291,9 @@ function HomePage() {
           sx={{ textAlign: 'center', fontStyle: 'italic', py: 5 }}
         >
           "At Fitfai, our vision is to harness the precision of artificial
-          intelligence to craft individualized wellness journeys, making
-          effective training and nutrition accessible to everyone."
+          intelligence to craft personalised wellness journeys, making effective
+          training, nutrition, and mental health support accessible to
+          everyone."
         </Typography>
       </Container>
       <Container
@@ -322,7 +339,7 @@ function HomePage() {
             }}
           >
             <ImportantDevicesIcon fontSize="large" sx={{ mr: 2 }} /> AI-Powered
-            Customization
+            Customisation
           </Typography>
           <Typography variant="body1">
             Our sophisticated AI algorithms process your data to generate a
@@ -345,7 +362,7 @@ function HomePage() {
             Detailed Plan Delivery
           </Typography>
           <Typography variant="body1">
-            Receive a plan in up to 24 hours that includes workout routines and
+            Receive a plan in under 60 seconds, including workout routines and
             meal plans, all accessible via our user-friendly app.
           </Typography>
         </Box>
@@ -436,7 +453,7 @@ function HomePage() {
             }}
             variant="h3"
           >
-            Shaping the Future of Fitness
+            AI-Powered Health for a Better You
           </Typography>
           <Typography
             sx={{
@@ -450,25 +467,8 @@ function HomePage() {
             }}
             variant="h6"
           >
-            AI-Powered Health for a Better You
+            Shaping the Future of Fitness, Nutrition, and Mental Health
           </Typography>
-          {/* <Box>
-            <Button
-              variant="contained"
-              color="primary"
-              sx={{
-                mt: 4,
-                fontWeight: 'bold'
-              }}
-              onClick={() =>
-                handleNavigation(
-                  'https://train.westrive.com/train/westrive.33742417907b4604'
-                )
-              }
-            >
-              Start Your AI Fitness Adventure
-            </Button>
-          </Box> */}
         </Box>
       </Container>
       {/* About Us */}
@@ -502,12 +502,13 @@ function HomePage() {
                   Who We Are
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                  We are a team of passionate innovators, fitness enthusiasts,
-                  nutrition experts, and tech wizards dedicated to
-                  revolutionizing the way individuals approach health and
-                  wellness. Our journey began with a simple yet powerful idea:
-                  to merge the precision of artificial intelligence with the
-                  personal touch of human expertise.
+                  We are a group of passionate individuals, including fitness
+                  enthusiasts, nutrition advocates, and mental health
+                  supporters, dedicated to revolutionising the way people
+                  approach health and wellness. Our journey began with a simple
+                  yet powerful idea: to make these resources more accessible,
+                  combining the precision of artificial intelligence with the
+                  personal touch of human insight.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -525,12 +526,12 @@ function HomePage() {
                   Our Mission
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                  Our mission is to redefine the approach to health and fitness,
-                  making it more personalized, accessible, and effective for
-                  everyone. We leverage the power of artificial intelligence to
-                  break down barriers in personal wellness, providing tailored
-                  solutions that adapt to each individual's unique needs and
-                  goals.
+                  Our mission is to redefine the approach to health, fitness,
+                  and mental well-being, making it more personalised,
+                  accessible, and effective for everyone. We leverage the power
+                  of artificial intelligence to break down barriers in personal
+                  wellness, providing tailored solutions that adapt to each
+                  individual's unique needs and goals.
                 </Typography>
               </CardContent>
             </CardActionArea>

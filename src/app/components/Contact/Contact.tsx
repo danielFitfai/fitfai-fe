@@ -1,6 +1,7 @@
 import { Box, Container, Link, Typography } from '@mui/material';
 import './Contact.css';
 import modernRunImage from '../../../assets/images/modern-run.png';
+import DownloadFrom from '../../c-components/Download/DownloadFrom';
 
 function Contact() {
   return (
@@ -29,6 +30,14 @@ function Contact() {
       <Box sx={{ mt: 6, px: 5 }}>
         <img width="250" src={modernRunImage} alt="modern runner with colors" />
       </Box>
+      <Container
+        sx={{
+          minWidth: '100%',
+          mt: 8
+        }}
+      >
+        <DownloadFrom title="" />
+      </Container>
     </Container>
   );
 }
